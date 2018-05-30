@@ -1,0 +1,10 @@
+function findMinLengthOfThreeWords(word1, word2, word3) {
+  var word4 = word1.length;
+  var word5 = word2.length;
+  var word6 = word3.length;
+  var array = [word4,word5,word6];
+  array.sort();
+  return array[0];
+}
+var output = findMinLengthOfThreeWords('a', 'be', 'see');
+console.log(output);
